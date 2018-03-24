@@ -2,6 +2,7 @@
 
 #define DHTPIN 2     // what pin we're connected to
 int ledPin = 5;
+int buzzPin = 14;
 // Uncomment whatever type you're using!
 //#define DHTTYPE DHT11   // DHT 11
 #define DHTTYPE DHT22   // DHT 22  (AM2302)
@@ -24,6 +25,7 @@ void setup() {
   Serial.begin(9600);
   Serial.println("DHTxx test!");
   pinMode(ledPin, OUTPUT);
+  pinMode(buzzPin, OUTPUT);
   dht.begin();
 }
 void loop() {
@@ -70,8 +72,10 @@ void loop() {
   {
     //    blink led here
     digitalWrite(ledPin, HIGH);
+    tone(buzzPin, 1000); // Send 1KHz sound signal...
     delay(1000);
     digitalWrite(ledPin, LOW);
+    noTone(buzzPin);     // Stop sound...
   }
   
   
