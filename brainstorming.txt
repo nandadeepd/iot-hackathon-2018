@@ -10,3 +10,6 @@ https://www.siliconrepublic.com/machines/iot-cryptocurrency-market-microsoft-bai
 http://www.un.org/sustainabledevelopment/sustainable-development-goals/
 
 Analyse data out of sensors placed in data centre. Predict how energy usage patterns works.
+https://aws.amazon.com/about-aws/sustainability/
+https://computer.howstuffworks.com/data-centers8.htm
+http://www.datacenterknowledge.com/open-source/who-s-buying-ocp-gear-outside-facebook-and-microsoft
