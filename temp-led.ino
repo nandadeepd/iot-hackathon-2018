@@ -47,3 +47,23 @@ void loop() {
   float hif = dht.computeHeatIndex(f, h);
   // Compute heat index in Celsius (isFahreheit = false)
   float hic = dht.computeHeatIndex(t, h, false);
+  
+  
+  //add logging here. 
+  
+  
+  //adding led integration
+  if (t >= 80 || h >= 20)
+  {
+    //    blink led here
+    digitalWrite(ledPin, HIGH);
+    delay(1000);
+    digitalWrite(ledPin, LOW);
+  }
+  
+  
+  
+  
+  
+  
+  
