@@ -8,3 +8,5 @@ IFTTT - home automation
 https://www.siliconrepublic.com/machines/iot-cryptocurrency-market-microsoft-baidu
 
 http://www.un.org/sustainabledevelopment/sustainable-development-goals/
+
+Analyse data out of sensors placed in data centre. Predict how energy usage patterns works.
