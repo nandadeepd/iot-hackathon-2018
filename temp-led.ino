@@ -70,6 +70,11 @@ void loop() {
   //adding led integration
   if (t >= 80 || h >= 20)
   {
+    int reading = analogRead(A0);
+    Serial.print("Reading gas sensor");
+    Serial.println(reading);
+    analogWrite(ledPin, reading);
+    
     //    blink led here
     digitalWrite(ledPin, HIGH);
     tone(buzzPin, 1000); // Send 1KHz sound signal...
